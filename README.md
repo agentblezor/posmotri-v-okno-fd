@@ -13,5 +13,5 @@
 
 ### 1. Клонирование репозитория  
 ```sh
-git clone https://github.com/ВАШ_НИК/posmotri-v-okno-fd.git
+git clone https://github.com/agentblezor/posmotri-v-okno-fd.git
 cd posmotri-v-okno-fd
