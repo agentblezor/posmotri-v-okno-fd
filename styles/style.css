@@ -139,7 +139,6 @@ video.result__video{
   background-color: rgba(84, 80, 80, 1);
 }
 
-
 .content__card-link:focus,
 .content__card-link:focus-visible {
   outline: none;
@@ -312,7 +311,6 @@ fieldset {
 .more-button {
   width: 100%; 
 }
-
 
 button {
   height: 34px;
