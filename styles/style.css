@@ -10,11 +10,11 @@ html {
 
 .page {
   display: flex;
-  justify-content: center;  
+  justify-content: center;
   align-items: center;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   inline-size: 1200px;
@@ -50,21 +50,17 @@ ol {
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
 }
 
-.page {
-  display: flex;
-}
 .content {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-areas:
-  "result"
-  "content__details";
+    "result"
+    "content__details";
   gap: 30px;
   max-width: 1140px;
-
 }
 
 .result {
@@ -73,20 +69,19 @@ ol {
 }
 
 .content__details {
-width: 399px;
-margin-bottom: 70px;
-
+  width: 399px;
+  margin-bottom: 70px;
 }
 
 .search-form {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  width: 711px; 
-} 
+  width: 711px;
+}
 
 .search-form .fieldset:first-of-type {
-width: 225px;
+  width: 225px;
 }
 
 .content__list-item {
@@ -104,8 +99,8 @@ width: 225px;
 
 .preloader {
   z-index: 10;
-  width: 100%; 
-  height: 100%; 
+  width: 100%;
+  height: 100%;
 }
 
 .result__video-container {
@@ -114,28 +109,25 @@ width: 225px;
   margin-bottom: 16px;
 }
 
-video.result__video{
+video.result__video {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-
 .content__video-card {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  width: 100%; 
+  width: 100%;
   max-height: 390px;
   margin-bottom: 30px;
   overflow: visible;
   cursor: pointer;
-  /* outline: none;  
-  border: none;  */
-}  
+}
 
 .content__video-card:hover {
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 
 .content__video-card:active {
@@ -154,8 +146,8 @@ video.result__video{
 
 .content__video-card-thumbnail {
   width: 194px;
-  height: 103px;  
-  object-fit:cover;
+  height: 103px;
+  object-fit: cover;
   object-position: right;
 }
 
@@ -166,13 +158,13 @@ video.result__video{
 }
 
 .search-form__fieldset-title {
-  font-family: 'Fira Sans Condensed';
+  font-family: "Fira Sans Condensed";
   font-weight: 400;
   font-size: 18px;
 }
 
 .content__accent {
-  color: rgba(84, 80, 80, 1) ;
+  color: rgba(84, 80, 80, 1);
 }
 
 .title {
@@ -180,38 +172,38 @@ video.result__video{
   font-weight: 700;
   font-size: 75px;
   line-height: 70.5px;
-  text-transform:uppercase;
+  text-transform: uppercase;
 }
 
-.content__card-link{
+.content__card-link {
   color: #fff;
   text-decoration: none;
 }
 
-.content__card-link_current{
-   background-color: rgba(84, 80, 80, 1) ;
+.content__card-link_current {
+  background-color: rgba(84, 80, 80, 1);
 }
 
-  .content__video-card-description {
-  display: -webkit-box; 
+.content__video-card-description {
+  display: -webkit-box;
   overflow: hidden;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
-  font-size: 18px; 
-  text-overflow: ellipsis; 
-  -webkit-box-orient: vertical; 
-  -webkit-line-clamp: 1; 
+  font-size: 18px;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
 }
 
-.content__video-card-title { 
-  display: block; 
-  width: 95%; 
+.content__video-card-title {
+  display: block;
+  width: 95%;
   overflow: hidden;
   font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 30px;
-  text-transform:uppercase; 
+  text-transform: uppercase;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
@@ -224,56 +216,54 @@ video.result__video{
   block-size: 1px;
   clip-path: inset(50%);
   white-space: nowrap;
-} 
+}
 
 .search-form__checkbox-list {
   display: flex;
   justify-content: space-between;
   gap: 15px;
   margin-top: 5px;
-  
 }
 
 fieldset {
   border: none;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
 }
 
 .search-form__label {
   display: flex;
-  display: inline-flex;  
   align-items: center;
   gap: 5px;
   width: fit-content;
 }
- 
+
 .search-form__fieldset-title {
   margin-bottom: 5px;
 }
 
 .search-form__textfield {
   width: 225px;
-  border-top: 1px solid white;  
-  border-right: none;  
+  border-top: 1px solid white;
+  border-right: none;
   border-bottom: 1px solid white;
   border-left: none;
   color: white;
-  font-family: 400;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 400;
   font-size: 18px;
   background-color: transparent;
-}  
+}
 
-.search-form__textfield:active { 
-  border: none; 
-  outline: 1px solid white; 
+.search-form__textfield:active {
+  border: none;
+  outline: 1px solid white;
 }
 
 .search-form__textfield:focus {
-  outline: 1px solid white; 
+  outline: 1px solid white;
   outline-offset: 1px;
 }
 
@@ -283,11 +273,10 @@ fieldset {
 
 .search-form__pseudo-checkbox {
   position: relative;
-  display: inline-block;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 19px; 
+  width: 19px;
   height: 19px;
   border: 1px solid white;
   cursor: pointer;
@@ -297,14 +286,14 @@ fieldset {
   content: "";
   display: none;
   place-items: center;
-  width: 15px; 
+  width: 15px;
   height: 15px;
-  background-color:  white;
+  background-color: white;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   display: block;
-}     
+}
 
 .search-form__label:hover .search-form__label-text {
   text-decoration: underline;
@@ -320,7 +309,7 @@ fieldset {
 }
 
 .more-button {
-  width: 100%; 
+  width: 100%;
 }
 
 .button {
@@ -328,8 +317,8 @@ fieldset {
   margin-top: 20px;
   border: 1px solid white;
   color: white;
-  font-family: 700;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 700;
   font-size: 18px;
   background-color: transparent;
   cursor: pointer;
@@ -344,6 +333,6 @@ fieldset {
 }
 
 .button:focus {
-outline:  1px solid white; 
-outline-offset: 1px;
+  outline: 1px solid white;
+  outline-offset: 1px;
 }
