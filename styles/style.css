@@ -161,6 +161,7 @@ video.result__video {
   font-family: "Fira Sans Condensed";
   font-weight: 400;
   font-size: 18px;
+  margin-bottom: 5px;
 }
 
 .content__accent {
@@ -238,10 +239,6 @@ fieldset {
   align-items: center;
   gap: 5px;
   width: fit-content;
-}
-
-.search-form__fieldset-title {
-  margin-bottom: 5px;
 }
 
 .search-form__textfield {
